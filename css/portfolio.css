@@ -27,12 +27,37 @@
   text-align: center;
   border-radius: 3%;
 }
+a {
+  text-decoration: none;
+}
 
 .projekter .img {
   margin-top: 15%;
-  width: 200px;
-  height: 260.33px;
+  /* width: 200px;
+  height: 260.33px; */
 }
+
+.grid_1-1-1-1 img {
+  margin-top: 25%;
+  height: 140px;
+  width: 180px;
+}
+/* #pb1 {
+  height: 140px;
+  width: 180px;
+} */
+.pb2 {
+  height: 140px;
+  width: 140px;
+}
+/* #pb3 {
+  height: 140px;
+  width: 180px;
+}
+#pb4 {
+  height: 140px;
+  width: 180px;
+} */
 
 .gen_web {
   background-color: rgb(255, 231, 232);
