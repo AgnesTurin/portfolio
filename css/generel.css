@@ -1,0 +1,238 @@
+body {
+  background-color: #fcf5eb;
+}
+
+/* Skrifttyper */
+@font-face {
+  font-family: "urbanist";
+  src: url(../fonts/urbanist-variablefont_wght-webfont.woff2);
+}
+
+/* Tekst */
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "urbanist";
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+h2 {
+  color: rgb(254, 156, 158);
+  text-align: center;
+  font-size: 4em;
+}
+
+p {
+  color: rgb(80, 64, 64);
+  text-align: center;
+  margin-right: 4%;
+  margin-left: 4%;
+  line-height: 25px;
+}
+
+/* NAVIGATION */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 26px 0 0 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 100px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: start;
+  color: rgb(80, 64, 64);
+  font-size: 25px;
+  margin-top: 0%;
+  font-family: "urbanist";
+}
+
+.menu a:hover {
+  color: rgb(254, 156, 158);
+}
+
+.burger {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(254, 156, 158);
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+
+.burger {
+  display: none;
+}
+
+/* RESPONSIV */
+
+@media screen and (max-width: 800px) {
+  nav {
+    justify-content: start;
+  }
+
+  .grid_1-1-1_nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    z-index: 2;
+  }
+
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: rgb(255, 231, 232);
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(254, 156, 158);
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 15px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
+  }
+  footer {
+    height: 25px; /* Justeret footerhøjde for mindre skærme */
+  }
+
+  h2 {
+    margin-right: 4%;
+    margin-left: 4%;
+    font-size: 4em;
+  }
+
+  .icon {
+    max-width: 20%;
+    align-items: -70px; /* Juster den maksimale bredde, når skærmen er under 800 pixels */
+  }
+}
+
+@media (min-width: 800px) {
+  .footer_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 5%;
+  }
+  .footer_grid {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .icon {
+    width: 20%; /* Fyld bredden af deres container */
+    height: auto; /* Bevar aspect ratio */
+    margin: auto;
+  }
+}
+
+/* Footer */
+
+.footer_icons_grid {
+  display: flex;
+  justify-content: flex-end;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  text-align: center;
+}
+
+.icon {
+  width: 20%; /* Fyld bredden af deres container */
+  height: auto; /* Bevar aspect ratio */
+  margin: auto;
+}
+
+.footer_p {
+  margin-left: 0%;
+}
+
+#widthm {
+  max-width: 30ch;
+}
+.widthm {
+  max-width: 30ch;
+}
+
+.form-felt {
+  margin-bottom: 10px;
+}
+
+.form-felt input {
+  padding: 5px;
+  font-family: "urbanist";
+  font-size: 18px;
+}
+
+.form-felt :focus {
+  outline: none;
+}
+
+button {
+  font-family: "urbanist";
+  color: rgb(254, 156, 158);
+  font-size: 16px;
+  background-color: #fcf5eb;
+}
+
+button:hover {
+  cursor: pointer;
+}

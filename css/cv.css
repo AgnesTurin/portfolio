@@ -1,0 +1,62 @@
+@media (min-width: 800px) {
+  .border img {
+    border: 7px solid rgb(253, 208, 210);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3%;
+    margin-right: 2.5%;
+    margin-left: 40%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .border img {
+    border: 7px solid rgb(253, 208, 210);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3%;
+    margin-right: 2.5%;
+    margin-left: 25%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+}
+
+/* tekst */
+h2 {
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  color: rgb(254, 156, 158);
+  font-family: "urbanist";
+}
+
+h3 {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 4%;
+  margin-bottom: 0%;
+  color: rgb(80, 64, 64);
+  font-family: "urbanist";
+  text-align: left;
+}
+
+h4 {
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  color: rgb(254, 156, 158);
+  font-family: "urbanist";
+}
+
+p {
+  margin-right: 10%;
+  margin-left: 10%;
+  color: rgb(80, 64, 64);
+  font-family: "urbanist";
+  text-align: left;
+}
