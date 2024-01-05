@@ -35,6 +35,9 @@ img {
   margin-bottom: 10px;
 }
 
+h2 {
+  font-family: "urbanist";
+}
 @media only screen and (max-width: 800px) {
   .overlay-text {
     font-size: 0.5em;
@@ -43,5 +46,10 @@ img {
   }
   img {
     width: 450px;
+  }
+
+  h2 {
+    font-family: "urbanist";
+    font-size: 2em;
   }
 }
