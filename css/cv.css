@@ -26,6 +26,13 @@
     margin-top: 2.5%;
     margin-bottom: 2.5%;
   }
+
+  summary {
+    color: rgb(254, 156, 158);
+    font-family: "urbanist";
+    text-align: center;
+    font-size: 0.5em;
+  }
 }
 
 /* tekst */
@@ -54,9 +61,18 @@ h4 {
 }
 
 p {
-  margin-right: 10%;
+  margin-right: 40%;
   margin-left: 10%;
   color: rgb(80, 64, 64);
   font-family: "urbanist";
   text-align: left;
+}
+
+summary {
+  color: rgb(254, 156, 158);
+  font-family: "urbanist";
+  text-align: center;
+  font-size: 3.5em;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }

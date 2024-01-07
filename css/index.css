@@ -25,13 +25,13 @@ img {
 .overlay-text h1 {
   font-size: 9em;
   margin-bottom: 10px;
-  color: rgb(254, 156, 158);
+  color: rgb(146, 160, 141);
   font-family: "urbanist";
 }
 
 .overlay-text h2 {
   font-size: 4em;
-  color: black;
+  color: rgb(80, 64, 64);
   margin-bottom: 10px;
 }
 

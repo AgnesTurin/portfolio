@@ -11,7 +11,7 @@ body {
 /* Tekst */
 
 h1 {
-  color: black;
+  color: rgb(80, 64, 64);
   text-align: center;
   font-size: 2.5em;
   font-family: "urbanist";
@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(254, 156, 158);
+  color: rgb(146, 160, 141);
   text-align: center;
   font-size: 4em;
 }
@@ -70,7 +70,7 @@ nav {
 }
 
 .menu a:hover {
-  color: rgb(254, 156, 158);
+  color: rgb(146, 160, 141);
 }
 
 .burger {
@@ -86,7 +86,7 @@ nav {
 .burger .line {
   width: 100%;
   height: 2px;
-  background-color: rgb(254, 156, 158);
+  background-color: rgb(146, 160, 141);
   margin-bottom: 5px;
   transition: 0.2s linear;
 }
@@ -133,12 +133,12 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: rgb(255, 231, 232);
+    background-color: rgb(221, 233, 217);
     position: absolute;
     top: 40px;
     left: 0;
     width: 100%;
-    box-shadow: 0 0 10px rgb(254, 156, 158);
+    box-shadow: 0 0 10px rgb(146, 160, 141);
     z-index: 1;
   }
 
@@ -228,7 +228,7 @@ nav {
 
 button {
   font-family: "urbanist";
-  color: rgb(254, 156, 158);
+  color: rgb(146, 160, 141);
   font-size: 16px;
   background-color: #fcf5eb;
 }
