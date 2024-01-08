@@ -1,6 +1,6 @@
 @media (min-width: 800px) {
   .border img {
-    border: 7px solid rgb(253, 208, 210);
+    border: 7px solid rgb(221, 233, 217);
     border-radius: 5%;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
 
 @media only screen and (max-width: 800px) {
   .border img {
-    border: 7px solid rgb(253, 208, 210);
+    border: 7px solid rgb(221, 233, 217);
     border-radius: 5%;
     display: flex;
     flex-direction: column;
@@ -28,9 +28,9 @@
   }
 
   summary {
-    color: rgb(254, 156, 158);
+    color: rgb(146, 160, 141);
     font-family: "urbanist";
-    text-align: center;
+    text-align: left;
     font-size: 0.5em;
   }
 }
@@ -39,8 +39,9 @@
 h2 {
   margin-right: 2.5%;
   margin-left: 2.5%;
-  color: rgb(254, 156, 158);
+  color: rgb(146, 160, 141);
   font-family: "urbanist";
+  text-align: center;
 }
 
 h3 {
@@ -56,7 +57,7 @@ h3 {
 h4 {
   margin-right: 2.5%;
   margin-left: 2.5%;
-  color: rgb(254, 156, 158);
+  color: rgb(146, 160, 141);
   font-family: "urbanist";
 }
 
@@ -69,10 +70,11 @@ p {
 }
 
 summary {
-  color: rgb(254, 156, 158);
+  color: rgb(146, 160, 141);
   font-family: "urbanist";
-  text-align: center;
+  text-align: left;
   font-size: 3.5em;
   margin-bottom: 5%;
   margin-top: 5%;
+  margin-left: 10%;
 }

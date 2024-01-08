@@ -8,6 +8,16 @@ body {
   src: url(../fonts/urbanist-variablefont_wght-webfont.woff2);
 }
 
+@font-face {
+  font-family: "light";
+  src: url(../fonts/notoserifsc-light-webfont.woff2);
+}
+
+@font-face {
+  font-family: "abril";
+  src: url(../fonts/abrilfatface-regular-webfont.woff2);
+}
+
 /* Tekst */
 
 h1 {
@@ -161,7 +171,7 @@ nav {
 
   .icon {
     max-width: 20%;
-    align-items: -70px; /* Juster den maksimale bredde, når skærmen er under 800 pixels */
+    align-items: -70px;
   }
 }
 
@@ -169,7 +179,7 @@ nav {
   .footer_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 20%;
     margin: 5%;
   }
   .footer_grid {
@@ -179,9 +189,11 @@ nav {
   }
 
   .icon {
-    width: 20%; /* Fyld bredden af deres container */
+    width: 100%; /* Fyld bredden af deres container */
     height: auto; /* Bevar aspect ratio */
     margin: auto;
+    max-width: 20%;
+    align-items: -70px;
   }
 }
 
@@ -193,12 +205,6 @@ nav {
   grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
   text-align: center;
-}
-
-.icon {
-  width: 20%; /* Fyld bredden af deres container */
-  height: auto; /* Bevar aspect ratio */
-  margin: auto;
 }
 
 .footer_p {
