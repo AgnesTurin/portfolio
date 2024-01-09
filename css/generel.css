@@ -1,3 +1,4 @@
+/* baggrundsfarve */
 body {
   background-color: #fcf5eb;
 }
@@ -6,11 +7,6 @@ body {
 @font-face {
   font-family: "urbanist";
   src: url(../fonts/urbanist-variablefont_wght-webfont.woff2);
-}
-
-@font-face {
-  font-family: "light";
-  src: url(../fonts/notoserifsc-light-webfont.woff2);
 }
 
 @font-face {
@@ -45,7 +41,7 @@ p {
   line-height: 25px;
 }
 
-/* NAVIGATION */
+/* NAVIGATION + BURGERMENU */
 
 nav {
   display: flex;
@@ -106,6 +102,7 @@ nav {
 }
 
 /* RESPONSIV */
+/* mobilskærm */
 
 @media screen and (max-width: 800px) {
   nav {
@@ -159,9 +156,6 @@ nav {
   nav.active .menu a {
     font-size: 24px;
   }
-  footer {
-    height: 25px; /* Justeret footerhøjde for mindre skærme */
-  }
 
   h2 {
     margin-right: 4%;
@@ -171,9 +165,10 @@ nav {
 
   .icon {
     max-width: 20%;
-    align-items: -70px;
   }
 }
+
+/*laptopskærm */
 
 @media (min-width: 800px) {
   .footer_container {
@@ -193,7 +188,6 @@ nav {
     height: auto; /* Bevar aspect ratio */
     margin: auto;
     max-width: 20%;
-    align-items: -70px;
   }
 }
 

@@ -10,8 +10,9 @@ img {
 .image-container {
   position: relative;
   width: 100%;
-  z-index: 1;
 }
+
+/* Tekst */
 
 .overlay-text {
   position: absolute;
@@ -24,6 +25,7 @@ img {
 
 .overlay-text h1 {
   font-size: 9em;
+  margin-top: 20%;
   margin-bottom: 10px;
   color: rgb(146, 160, 141);
   font-family: "urbanist";
@@ -33,12 +35,15 @@ img {
   font-size: 4em;
   color: rgb(80, 64, 64);
   margin-bottom: 10px;
-  /* font-family: "nanum"; */
+  font-family: "urbanist";
 }
 
 h2 {
   font-family: "urbanist";
 }
+
+/* mobilskærm */
+
 @media only screen and (max-width: 800px) {
   .overlay-text {
     font-size: 0.5em;
